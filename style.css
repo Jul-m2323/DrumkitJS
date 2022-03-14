@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #292929;
+    color: aliceblue;
+    font-family: 'Loto', sans-serif;
+    margin: 0;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25rem;
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 75px;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    padding: 0;
+    margin-top: 50px;
+    background-color: #474747;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.81);
+    transition: all 0.07s ease-in-out;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: tomato;
+    box-shadow: 0 0 10px 0 tomato;
+}
